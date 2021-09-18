@@ -18,6 +18,7 @@ public class PreprocessHandler implements Listener {
             e.setCancelled(true);
             p.sendMessage("§cExecution Blocked.");
         }
+        
         Opwatch.cmsStore.addCommand(p.getUniqueId().toString(),p.getName(),e.getMessage());
 
 
