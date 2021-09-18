@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CommandStorage {
-    ArrayList<CommandExecution> cmds;
+    public ArrayList<CommandExecution> cmds;
     public CommandStorage(){
         cmds= new ArrayList<CommandExecution>();
     }
