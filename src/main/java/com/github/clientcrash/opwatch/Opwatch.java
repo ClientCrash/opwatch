@@ -4,7 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Opwatch extends JavaPlugin {
-
+    public static CommandStorage cmsStore = new CommandStorage();
     @Override
     public void onEnable() {
         Bukkit.getServer().broadcastMessage("$2OPWATCH ENABLED");
