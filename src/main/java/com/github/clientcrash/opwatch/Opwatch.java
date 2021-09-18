@@ -1,17 +1,18 @@
 package com.github.clientcrash.opwatch;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Opwatch extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        Bukkit.getServer().broadcastMessage("$2OPWATCH ENABLED");
 
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        Bukkit.getServer().broadcastMessage("$cOPWATCH DISABLED");
     }
 }
