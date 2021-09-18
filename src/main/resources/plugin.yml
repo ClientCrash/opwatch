@@ -1,0 +1,7 @@
+name: Opwatch
+version: '${project.version}'
+main: com.github.clientcrash.opwatch.Opwatch
+api-version: 1.17
+authors: [ClientCrash]
+description: Watch your Ops.
+website: www.github.com/clientcrash/opwatch
