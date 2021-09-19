@@ -8,6 +8,7 @@ public final class Opwatch extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getServer().broadcastMessage("$2OPWATCH ENABLED");
+        getServer().getPluginManager().registerEvents(new PreprocessHandler(),this);
 
     }
 
