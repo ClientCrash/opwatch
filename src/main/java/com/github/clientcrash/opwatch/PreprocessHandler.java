@@ -12,7 +12,7 @@ public class PreprocessHandler implements Listener {
     @EventHandler
     public void PlayerCommand(PlayerCommandPreprocessEvent e) {
         Player p = e.getPlayer();
-        p.sendMessage("$eLogged Command.");
+        p.sendMessage("§eLogged Command.");
         boolean shouldBlock = false;
         if(shouldBlock){
             e.setCancelled(true);

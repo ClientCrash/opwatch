@@ -5,3 +5,7 @@ api-version: 1.17
 authors: [ ClientCrash ]
 description: Watch your Ops.
 website: www.github.com/clientcrash/opwatch
+commands:
+  report:
+    permission: opwatch.genreport
+
